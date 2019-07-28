@@ -4,8 +4,8 @@ import time
 name = ""
 crawlerName = ""
 crawlerRole = "" # Aws Glue service role to acess s3 and athena
-modelDatabase = "tdp_" + name + "_models"
-reportDatabase = "tdp_" + name + "_reports"
+modelDatabase = "dp_" + name + "_models"
+reportDatabase = "dp_" + name + "_reports"
 
 models = ["model2", "model1"]
 reports = ["report1"]
